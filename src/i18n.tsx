@@ -91,7 +91,7 @@ export const CONTENT: Record<Lang, Content> = {
     principles: [
       { title: "Pradedame nuo pokalbio", body: "Pirmiausia įsigiliname į problemą ir atvirai pasakome, ar ją apskritai verta spręsti programavimu." },
       { title: "Aiški kaina ir terminai", body: "Sąmatą pateikiame iš anksto — jokių netikėtumų galutinėje sąskaitoje." },
-      { title: "Suprantama kalba", body: "Viską paaiškiname aiškiai, be nereikalingo techninio žargono." },
+      { title: "Aiškus bendravimas", body: "Sudėtingus techninius dalykus paaiškiname paprastai ir suprantamai." },
       { title: "Nepaliekame po paleidimo", body: "Sistema turi veikti ir po metų, todėl liekame pasiekiami ir vėliau." },
     ],
     stackSection: {
@@ -159,7 +159,7 @@ export const CONTENT: Record<Lang, Content> = {
     principles: [
       { title: "We start with a conversation", body: "First we understand the problem and tell you honestly whether code is even the right fix." },
       { title: "Clear price and timeline", body: "You get an estimate up front. No surprises on the final invoice." },
-      { title: "Plain language", body: "We explain what's going on without jargon or lectures." },
+      { title: "Clear communication", body: "We explain complex technical things simply and clearly." },
       { title: "We don't vanish after launch", body: "It has to still work a year later, so we stay close." },
     ],
     stackSection: {

@@ -2,20 +2,53 @@
 <html lang="lt">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#060910" />
+
+    <!-- Primary meta -->
+    <title>DDTech — programavimo paslaugos verslui</title>
     <meta
       name="description"
-      content="DDTech — programavimo studija. Sistemų kūrimas, procesų optimizavimas, klaidų šalinimas, našumo didinimas, kibernetinė apsauga ir įskiepių diegimas."
+      content="DDTech — senior lygio inžinierių komanda su 8+ metų patirtimi. Sistemų kūrimas, procesų automatizavimas, klaidų šalinimas, našumas, kibernetinė sauga ir infrastruktūra."
     />
-    <meta property="og:title" content="DDTech — Software engineering studio" />
+    <meta name="author" content="DDTech" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="theme-color" content="#0b0b0c" />
+    <link rel="canonical" href="https://ddtech.lt/" />
+
+    <!-- Icons & manifest -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="apple-touch-icon" href="favicon.svg" />
+    <link rel="manifest" href="site.webmanifest" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DDTech" />
+    <meta property="og:title" content="DDTech — programavimo paslaugos verslui" />
     <meta
       property="og:description"
-      content="Turning slow, noisy systems into clean signal. Custom software, performance, security."
+      content="Senior lygio inžinierių komanda su 8+ metų patirtimi. Kuriame ir prižiūrime programinę įrangą verslui: sistemos, automatizavimas, sauga, infrastruktūra."
     />
-    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ddtech.lt/" />
+    <meta property="og:image" content="https://ddtech.lt/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DDTech — programavimo studija" />
+    <meta property="og:locale" content="lt_LT" />
+    <meta property="og:locale:alternate" content="en_US" />
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="DDTech — programavimo paslaugos verslui" />
+    <meta
+      name="twitter:description"
+      content="Senior lygio inžinierių komanda su 8+ metų patirtimi. Sistemos, automatizavimas, sauga, infrastruktūra."
+    />
+    <meta name="twitter:image" content="https://ddtech.lt/og-image.jpg" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
@@ -28,10 +61,44 @@
       rel="stylesheet"
     />
 
-    <title>DDTech — Programavimo studija</title>
+    <!-- Structured data: ProfessionalService -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "DDTech",
+        "description": "Senior lygio inžinierių komanda su daugiau nei 8 metų patirtimi IT srityje. Programinės įrangos kūrimas, procesų automatizavimas, klaidų šalinimas, našumo gerinimas, kibernetinė sauga ir infrastruktūros priežiūra.",
+        "url": "https://ddtech.lt/",
+        "logo": "https://ddtech.lt/favicon.svg",
+        "image": "https://ddtech.lt/og-image.jpg",
+        "email": "info@ddtech.lt",
+        "areaServed": "LT",
+        "knowsLanguage": ["lt", "en"],
+        "serviceType": [
+          "Programinės įrangos kūrimas",
+          "Procesų automatizavimas",
+          "Klaidų šalinimas",
+          "Našumo gerinimas",
+          "Kibernetinė sauga",
+          "Infrastruktūros priežiūra",
+          "DevOps ir diegimas",
+          "Įskiepiai ir integracijos"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <h1>DDTech — programavimo paslaugos verslui</h1>
+      <p>
+        DDTech yra senior lygio inžinierių komanda, turinti daugiau nei 8 metų
+        patirtį IT srityje. Kuriame ir prižiūrime programinę įrangą verslui:
+        sistemų kūrimas, procesų automatizavimas, klaidų šalinimas, našumo
+        gerinimas, kibernetinė sauga, infrastruktūra, DevOps bei integracijos.
+      </p>
+      <p>Susisiekite: <a href="mailto:info@ddtech.lt">info@ddtech.lt</a></p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "DDTech — programavimo paslaugos",
+  "short_name": "DDTech",
+  "description": "Senior lygio inžinierių komanda: sistemų kūrimas, automatizavimas, kibernetinė sauga ir infrastruktūra.",
+  "lang": "lt",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
