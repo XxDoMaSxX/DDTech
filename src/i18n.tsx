@@ -54,7 +54,7 @@ export const CONTENT: Record<Lang, Content> = {
     hero: {
       titleA: "Kuriame ir prižiūrime",
       titleB: "programinę įrangą verslui.",
-      lead: "DDTech — inžinierių komanda. Kuriame naujas sistemas, taisome senas, tvarkome infrastruktūrą ir darome taip, kad viskas veiktų greitai ir saugiai.",
+      lead: "DDTech — tik senior inžinierių komanda, daugiau nei 8 metus teikianti IT paslaugas. Kuriame naujas sistemas, taisome senas, tvarkome infrastruktūrą ir darome taip, kad viskas veiktų greitai ir saugiai.",
       ctaPrimary: "Aptarkime projektą",
       ctaSecondary: "Ką darome",
       doing: "Sistemos · Automatizavimas · Klaidų taisymas · Našumas · Sauga · Infrastruktūra · Integracijos",
@@ -122,7 +122,7 @@ export const CONTENT: Record<Lang, Content> = {
     hero: {
       titleA: "We build and maintain",
       titleB: "software for businesses.",
-      lead: "DDTech is a team of engineers. We build new systems, fix old ones, set up infrastructure and make sure everything runs fast and securely.",
+      lead: "DDTech is a senior-only engineering team with over 8 years of delivering IT services. We build new systems, fix old ones, set up infrastructure and make sure everything runs fast and securely.",
       ctaPrimary: "Start a project",
       ctaSecondary: "What we do",
       doing: "Systems · Automation · Bug fixing · Performance · Security · Infrastructure · Integrations",
