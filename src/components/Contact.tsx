@@ -22,7 +22,7 @@ export default function Contact() {
   return (
     <section id="contact" className="section">
       <div className="container contact">
-        <div className="contact-left">
+        <div className="contact-left reveal">
           <h2>{c.title}</h2>
           <p>{c.lead}</p>
           <a className="contact-email" href={`mailto:${c.email}`}>
@@ -31,7 +31,7 @@ export default function Contact() {
           </a>
         </div>
 
-        <form className="form" onSubmit={onSubmit}>
+        <form className="form reveal" style={{ animationDelay: "90ms" }} onSubmit={onSubmit}>
           <div className="field">
             <label htmlFor="name">{c.nameLabel}</label>
             <input id="name" name="name" type="text" placeholder={c.nameph} required />
